@@ -1,0 +1,67 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+#board
+{
+    background-image:url(img/background.gif);
+    background-position: center;
+    height:702px;
+    width:1532px;
+}
+#weapon
+ {
+    background-image:url(img/weapon.jpg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    width: 164px;
+    height: 100px;
+    float:left;
+    z-index:9999;
+    margin-left:20%;
+ }
+
+#bird
+{
+    background-image:url(img/bird.jpg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    width: 153px;
+    height: 140px;
+    position:absolute;
+   
+    
+}
+
+#menu
+{
+    margin-top:20px;
+    margin-left:20px;
+    color:darkorange;
+    font-size:25px;
+}
+
+#left
+{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+#result
+{
+    margin-top:200px;
+    margin-left:550px;
+    font-size:120px;
+    position:absolute;
+}
+
+#btnStart
+{
+    margin-top:200px;
+    margin-left:550px;
+    padding: 14px 40px;
+    position:absolute;
+    text-align:center;
+    font-size:50px;
+    background-color:white;
+}

@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Demo For Project</title>
+    <link rel="stylesheet" type="text/css" href="demo.css"/>
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <script src="jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div id="menu" title="You got 60 seconds to kill 10 birds.">
+        <span id="timer">Time Left: 60</span>
+        <span id="left">Bird Left: 10</span>
+        <span id="score">Your Score: 0</span>
+        <input type="button" title="Click this button to restart the game." value="Restart" onclick="start()" />
+    </div>
+    <span id="result"></span>
+    <input type="button" title="Grab the fry pan and try to place it inside of bird." value="Start Game" id="btnStart" onclick="start()"/>
+    <div id="board">        
+        <div id="weapon" onclick="hit()">
+
+        </div>
+
+        <div id="bird">
+
+        </div>
+    </div>
+    <script src="demo.js">
+
+    </script>
+
+</body>
+
